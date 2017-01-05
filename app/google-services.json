@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "461160065457",
+    "firebase_url": "https://color-wheel-d0ab6.firebaseio.com",
+    "project_id": "color-wheel-d0ab6",
+    "storage_bucket": "color-wheel-d0ab6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461160065457:android:8580ea378f86ab01",
+        "android_client_info": {
+          "package_name": "romine.colorwheel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461160065457-iico1bmedufovoik7ik0hf6dn5b8879f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [{ "current_key": ""}],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

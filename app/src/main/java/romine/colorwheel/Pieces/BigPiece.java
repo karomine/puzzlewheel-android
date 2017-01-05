@@ -1,0 +1,19 @@
+package romine.colorwheel.Pieces;
+
+import java.util.ArrayList;
+
+/**
+ * Created by karom on 10/20/2016.
+ */
+
+abstract public class BigPiece extends SinglePiece {
+
+    public BigPiece(ArrayList<GamePiece>pieces, PieceColor color) {
+        super(pieces, color);
+    }
+
+    static void addWithOffset(ArrayList<GamePiece> pieces, GamePiece piece, int xOffset, int yOffset) {
+        piece.setOffsets(new Offset(xOffset, yOffset));
+        pieces.add(piece);
+    }
+}
